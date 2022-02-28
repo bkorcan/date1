@@ -1,10 +1,20 @@
 .container{
-    max-width: 400px;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
-    height: 200px;
+    width: 147px;
     margin: 0 auto;
 }
 
 .dayContainer{
     /* display: none; */
+    background-color: #fff;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+    width: 300px;
+}
+
+.checkInContainer{
+    width: 147px ;
+    height: 47px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
